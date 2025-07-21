@@ -1,0 +1,121 @@
+# ZONA-ANIME-BR
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZONA ANIME BR</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f2f2f2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff004f;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 0 0 10px #fff;
+    }
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #ff004f;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+    }
+    .category-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .category {
+      background-color: #333;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid #ff004f;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ZONA ANIME BR</h1>
+    <p>O portal definitivo dos apaixonados por anime!</p>
+  </header>
+
+  <nav>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#resenhas">Resenhas</a>
+    <a href="#doacoes">Doações</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+
+  <section id="catalogo">
+    <h2>📺 Catálogo de Animes</h2>
+    <div class="category-list">
+      <div class="category">Ação</div>
+      <div class="category">Aventura</div>
+      <div class="category">Comédia</div>
+      <div class="category">Drama</div>
+      <div class="category">Fantasia</div>
+      <div class="category">Slice of Life</div>
+      <div class="category">Romance</div>
+      <div class="category">Mistério</div>
+      <div class="category">Terror</div>
+      <div class="category">Esportes</div>
+      <div class="category">Sci-fi</div>
+      <div class="category">Mecha</div>
+      <div class="category">Shounen</div>
+      <div class="category">Shoujo</div>
+      <div class="category">Seinen</div>
+      <div class="category">Josei</div>
+    </div>
+    <p>🎞️ Assista trailers e leia resenhas sinceras escritas por Allex. Links para animes dublados e legendados disponíveis em plataformas oficiais!</p>
+  </section>
+
+  <section id="resenhas">
+    <h2>📝 Resenhas & Destaques</h2>
+    <p><strong>Top da Semana:</strong> "Jujutsu Kaisen é simplesmente insano! A animação, a trilha sonora, e o Gojo... sem comentários."</p>
+    <p>🔍 Explore críticas, curiosidades, memes e teorias sobre os episódios mais épicos.</p>
+  </section>
+
+  <section id="doacoes">
+    <h2>💸 Doações</h2>
+    <p>Se curtiu o site e quer apoiar, considere doar via Pix:</p>
+    <p><strong>Chave Pix:</strong> allexnascimento007@gmail.com</p>
+    <p>❤️ Toda ajuda é bem-vinda para manter o conteúdo sempre atualizado e incrível.</p>
+  </section>
+
+  <section id="sobre">
+    <h2>🧑‍💻 Sobre o Criador</h2>
+    <p>Sou Allex, apaixonado por animes desde pequeno. Criei esse site pra reunir a comunidade otaku e celebrar nossa paixão!</p>
+    <p>📸 Instagram: <a href="https://instagram.com/maldadefds" target="_blank">@maldadefds</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ZONA ANIME BR — Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
